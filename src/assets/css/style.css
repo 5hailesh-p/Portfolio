@@ -1,0 +1,88 @@
+:root{
+    --mc:#d410c4;
+    --sc:#00ccff;
+
+}
+
+.mc{
+    color: var(--mc) !important;
+}
+.sc{
+    color: var(--sc) !important;
+}
+.section-hero{
+    background: radial-gradient(at center center ,#000a2f,#090037);
+}
+
+.bg-purple {
+  --bs-bg-opacity: 1;
+  background-color: rgb(255, 7, 234) !important;
+}
+.bg-orange {
+  --bs-bg-opacity: 1;
+  background-color: rgb(255, 119, 7) !important;
+}
+.bg-green {
+  --bs-bg-opacity: 1;
+  background-color: rgb(51, 255, 0) !important;
+}
+
+[bg="p0"]{
+    background-color: #031bee;
+}
+[bg="p1"]{
+    background-color: #16bd00;
+}
+[bg="p2"]{
+    background-color: #b800a8;
+}
+[bg="p3"]{
+    background-color: #bbbe00;
+}
+[bg="p4"]{
+    background-color: #00b8c5;
+}
+[bg="p5"]{
+    background-color: #ff006a;
+}
+[bg="p6"]{
+    background-color: #d68325;
+}
+[bg="p7"]{
+    background-color: #00b963;
+}
+
+
+
+
+[bg="nav"]{
+    background: #000280;
+}
+[bg="bg1"]{
+    background: #000535;
+}
+[bg="bg2"]{
+    background: #35002c;
+}
+[bg="bg3"]{
+    background: #020d72;
+}
+
+[pro-pic="true"]{
+    aspect-ratio: 1;
+    width: 100%;
+    border: 5px solid;
+    border-color: var(--mc) var(--sc);
+    box-shadow: 0 0 37px 6px var(--sc);
+}
+
+[bbr="info"]{  
+    border: 5px solid;
+    border-color: var(--mc) var(--sc);
+    box-shadow: 0 0 37px 6px var(--sc);
+}
+[bbr="purple"]{  
+    border: 5px solid;
+    border-color: var(--mc) var(--sc);
+    box-shadow: 0 0 37px 6px var(--mc);
+}
