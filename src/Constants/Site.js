@@ -19,4 +19,39 @@ export const SKILLS = {
   PYTHON: "70",
 };
 
-export const APP_NAME = "MyReactApp";
+
+ 
+export const PROJECTS = [
+  {
+    img: "https://images.unsplash.com/photo-1518001589401-1743b61d1def?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Weather App",
+    lang: ["HTML", "CSS", "JavaScript", "React"],
+    desc: "Displays current and forecasted weather using OpenWeather API.",
+    date: "2025-06-10",
+    url: "#!"
+  },
+  {
+    img: "https://images.unsplash.com/photo-1728214371618-75fbc22ba7cb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
+    name: "Portfolio Website",
+    lang: ["HTML", "CSS", "JavaScript"],
+    desc: "Personal portfolio to showcase projects, skills, and contact info.",
+    date: "2025-05-15",
+    url: "#!"
+  },
+  {
+    img: "https://images.unsplash.com/photo-1730662512763-734d36a14a14?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Tour Booking System",
+    lang: ["PHP", "MySQL", "CodeIgniter", "Bootstrap"],
+    desc: "A web platform for booking and managing tour packages globally.",
+    date: "2025-04-25",
+    url: "#!"
+  },
+  {
+    img: "https://images.unsplash.com/photo-1689473483831-dc1228b13992?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Sona",
+    lang: ["WordPress", "PHP", "JavaScript"],
+    desc: "Custom WordPress theme for writing and managing blog content.",
+    date: "2025-03-01",
+    url: "#!"
+  }
+];
